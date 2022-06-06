@@ -45,20 +45,20 @@ SPS_test_script.py contains a function to plot the output of SPS and visualize t
 ## Code Documentation
 
 SPS(n_samples, total_samples, rng, apodization=False)
-    Parameters
-    ----------
-    n_samples : int
-        number of sample in the sub sample. must be less than total_samples
-    total_samples : int
-        Total number of samples in fid.
-    rng : numpy.random._generator.Generator
-        numpy random number generator object with seed.
-    apodization : TYPE, optional
-        Toggle for whether FID to be subsampled is expected to be apodized. Set to True if FID will be aphodized. The default is False.
+Parameters
+----------
+n_samples : int
+    number of sample in the sub sample. must be less than total_samples
+total_samples : int
+    Total number of samples in fid.
+rng : numpy.random._generator.Generator
+    numpy random number generator object with seed.
+apodization : TYPE, optional
+    Toggle for whether FID to be subsampled is expected to be apodized. Set to True if FID will be aphodized. The default is False.
     
-    Returns
-    ----------
-    A list of integers of length n_samples, representing the points along the total_samples dimension to be sampled.
+Returns
+----------
+A list of integers of length n_samples, representing the points along the total_samples dimension to be sampled.
 
 plotSPS(v)
     Parameters
