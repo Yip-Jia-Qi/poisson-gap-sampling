@@ -11,7 +11,10 @@ Publication Date:February 2, 2010
 https://doi.org/10.1021/ja908004w
 
     Exerpt from the above
-    The quality of spectra obtained from NUS depends crucially on the sampling schedules. In the past, we examined various forms of random sampling and realized that the quality of data retrieval depended significantly on the choice of the seed number when using standard Unix random number generators (e.g., drand48).
+    The quality of spectra obtained from NUS depends crucially on the sampling schedules. 
+    In the past, we examined various forms of random sampling and realized that the quality 
+    of data retrieval depended significantly on the choice of the seed number when using 
+    standard Unix random number generators (e.g., drand48).
     (1) big gaps in the sampling schedule are generally unfavorable and 
     (2) gaps at the beginning or end of the sampling are worse than those in the middle. 
     A third, crucial criterion is that 
