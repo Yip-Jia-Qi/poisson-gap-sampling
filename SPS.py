@@ -40,8 +40,7 @@ def SPS(n_samples, total_samples, rng, apodization=False):
     k=0                 #setting k=0 to initiate the algorithm
     while k != p:
         if kill>50:
-            print("algorithm could not converge within 50 iterations. While loop killed")
-            break
+            raise Exception("algorithm could not converge within 50 iterations. While loop killed")
         kill += 1
         
         i = 0
